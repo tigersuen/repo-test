@@ -31,4 +31,4 @@
   <project groups="aosp-android10-release,pdk" name="device/google/vrservices" revision="cb6d3c30103b97a02c15668fed057a432a809008" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
   <project groups="aosp-android10-release,device,pdk,poplar" name="device/linaro/poplar" revision="ec5d017ec3fc6a84def0f71d43446a3d79ea374a" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
   <project groups="aosp-android10-release,device,pdk,poplar" name="device/linaro/poplar-kernel" revision="997f40118b87b02f80216d080a47a6f1a43677bd" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
- </manifest>
+</manifest>
