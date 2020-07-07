@@ -4,4 +4,31 @@
   <default remote="caf" revision="partner-android/q-fs-release"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="4e230f5ab2a496ce00ca373c998fd5073067a998" upstream="refs/heads/uefi.lnx.1.9.r32-rel"/>
   <project groups="aosp-android10-release,device,pdk,yukawa" name="device/amlogic/yukawa" revision="e6bdb83eb57cd9fa46d827950b4d52ffe8e101d3" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,device,pdk,yukawa" name="device/amlogic/yukawa-kernel" revision="07b36535a6f33844060a580b0bd38472e5752aae" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk,pdk-cw-fs" name="device/common" revision="15ea3d55e5b7b2ab8e571fdfbc16130c565069e1" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/arm64" revision="8e6a722a9c8cf162be4f941f939fa0350ca5714c" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/armv7-a-neon" revision="cf86a59b276718cc97271a579f469b3e2b6bb4a8" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/car" revision="770defef5ff757d9170b63c65699cf3f7a402153" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/common" revision="9ea67b357f7e6842112c6b55d29228f627cd05d0" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/goldfish" revision="c256085c415938fea734f2ba04a80386b3b344b2" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/goldfish-opengl" revision="a524e9d4c4476ffd955ea6b5b34852d756d94dd7" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/mini-emulator-arm64" revision="cd3454ae5690548db09266817ce764e661aa6da7" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/mini-emulator-armv7-a-neon" revision="670dc99bb67dc0046e4e6b08fb1472985032f49f" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/mini-emulator-x86" revision="2ea0286662ebdbb86abc8865e9ab43370ea7e1fc" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/mini-emulator-x86_64" revision="0bd953f7e79da411c979721eaa256f7b7c61503e" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/opengl-transport" revision="112b3fc400ce2737ba79d7bb5278a2deb22d020e" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/qemu" revision="30e88a2a228669974782661a6066293e9aae0f33" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/trusty" revision="f25d7c534edeccec3c9d014ab6ecf5db2955eb7c" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,device,pdk" name="device/generic/uml" revision="5cb706770c1293dbd02308fee12141a0409024e1" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/x86" revision="c5c6e23af362812d400f82d06f6ae27ea2ed2674" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/generic/x86_64" revision="506952733fdebb5a2ef086b519ceebe86a95ae31" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,broadcom_pdk,device,generic_fs,pdk" name="device/google/atv" revision="fc4f3b05966ebc9e13349d5cdb1728da65d33370" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,device,marlin,pdk" name="device/google/contexthub" revision="14b864cafb31da5f5269b5fdf8546e647484c8fb" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,device,pdk" name="device/google/cuttlefish" revision="676bd0964ac546859586ce8cb46f4660b4247f00" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,device,pdk" name="device/google/cuttlefish_common" revision="eea9e0c493bb86feb4defec5e442a2bd5decb770" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,device,pdk" name="device/google/cuttlefish_kernel" revision="32e7b65c5e347149924570d274d8f3cf08177fa3" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,device,pdk" name="device/google/cuttlefish_vmm" revision="c52cd8c30c12f0b3a35fecd4fb83240f8cda8d91" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,pdk" name="device/google/vrservices" revision="cb6d3c30103b97a02c15668fed057a432a809008" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,device,pdk,poplar" name="device/linaro/poplar" revision="ec5d017ec3fc6a84def0f71d43446a3d79ea374a" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
+  <project groups="aosp-android10-release,device,pdk,poplar" name="device/linaro/poplar-kernel" revision="997f40118b87b02f80216d080a47a6f1a43677bd" upstream="refs/heads/ks-aosp.lnx.2.0.r2-rel"/>
 </manifest>
